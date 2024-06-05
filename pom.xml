@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.example</groupId>
+  <artifactId>petprojects</artifactId>
+  <packaging>pom</packaging>
+  <version>1.0-SNAPSHOT</version>
+
+  <modules>
+    <module>PP_1_1_3-4_JDBC_Hibernate</module>
+    <module>PP_1_1_5_Hibernate</module>
+    <module>PP_2_1_2_Spring_HelloWorld</module>
+    <module>PP_2_1_3_SpringBeans</module>
+    <module>PP_2_1_4_spring-types-of-wiring</module>
+    <module>PP_2_2_1_spring_hibernate</module>
+    <module>PP_2_2_2_spring-mvc</module>
+    <module>PP_2_3_1_Spring_MVC_Hibernate</module>
+    <module>PP_3_1_2_Boot_Security</module>
+    <module>PP_3_1_SpringBoot_CRUD</module>
+    <module>PP_3_2_Bootstrap</module>
+    <module>PP_3_3_Rest_controllers</module>
+    <module>stackoverflow_clone</module>
+  </modules>
+
+  <properties>
+    <maven.compiler.source>17</maven.compiler.source>
+    <maven.compiler.target>17</maven.compiler.target>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+</project>
